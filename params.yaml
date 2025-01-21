@@ -1,0 +1,46 @@
+learning_rate:
+  type: real
+  low: 0.01
+  high: 0.3
+  prior: uniform
+max_depth:
+  type: integer
+  low: 3
+  high: 10
+n_estimators:
+  type: integer
+  low: 50
+  high: 1000
+subsample:
+  type: real
+  low: 0.6
+  high: 1.0
+  prior: uniform
+colsample_bytree:
+  type: real
+  low: 0.3
+  high: 1.0
+  prior: uniform
+gamma:
+  type: real
+  low: 0.0
+  high: 10.0
+  prior: uniform
+reg_alpha:
+  type: real
+  low: 0.0
+  high: 1.0
+  prior: uniform
+reg_lambda:
+  type: real
+  low: 0.0
+  high: 1.0
+  prior: uniform
+scale_pos_weight:
+  type: integer
+  low: 1
+  high: 10
+min_child_weight:
+  type: integer
+  low: 1
+  high: 10
